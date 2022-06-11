@@ -131,10 +131,12 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX needs to be colorOne = 'blue' and colorTwo = 'red'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX the code within the condtional needs to include colorTwo = 'purple'.
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -148,6 +150,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX using || means OR. the condition needs to use && (temp > 39 && time >=4) to check that both parts of the condition are true.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
