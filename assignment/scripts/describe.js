@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// Created a variable called name and set assigned name to the string Dane.
+// Created a conditional that logs 'Hi, Mary!' to the console if name is equal in value and type to 'Mary', and otherwise logs 'How do you do?' to the console.
+// We console.log('How do you do?') because name is not 'Mary'.
 //
 
 //CODE
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Created a variable called secret without an initial value.
+// Created variable called code and assigned code to the number 123.
+// Checking if code is equal in value and type to 123. If it is, then secret is assignmed the value of the string 'super' and the value of code is multiplied by 2. code is equal in value and type to 123, so now secret = 'super' and code = 246.
+// Checking if the value of code is greater than 250. If it is, the value of secret is assigned to the string 'duper'. code is not greater than 250, so that code block is skipped.
+// We console.log(secret) and get 'super'.
 
 //CODE
 /*
@@ -70,9 +71,9 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// Created a variable called isStudent and assigned isStudent a value of the boolean true. Created a variable called age and assigned age the value of the number 34. Created a variable called zip and assigned zip the value of the number 55407.
+// Created an if, else if, else if, else conditional. The conditional first checks if both isStudent is true AND if zip is greater than 8000. If both are true, 'You're a student on the West Coast' is logged to the console. If both are not true, the code jumps to the first else if and checks if isStudent is false OR is age less than 30. If one of those is true, 'What are your hobbies' is logged to the console. If neither of those are true, the code jumps to the second else if and checks if isStudent is true. If isStudent is true, 'Welcome to Prime!' is logged to the console. If isStudent is false, the code jumps to the else statement, which logs 'How about the weather?' to the console.
+// console.log 'Welcome to Prime!' because isStudent is true and that is the first true statement in the conditional.
 //
 
 //CODE
